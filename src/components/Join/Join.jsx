@@ -35,7 +35,7 @@ const Join = () => {
             placeholder="Enter your email Address"
             id=""
           />
-          <button className="btn btn-j">join now</button>
+          <button className="btn btn-j" onClick={()=>alert("Thank you for joining with us. We will Contact you soon")}>join now</button>
         </form>
       </div>
     </div>
